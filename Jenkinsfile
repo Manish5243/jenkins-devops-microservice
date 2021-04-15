@@ -5,18 +5,18 @@
 node {
 	agent any
 	stages {
-		stage('build'){
-			steps{
+		stage('build') {
+			steps {
 				echo "Build"
 			}
 		}
-		stage('Test'){
-			steps{
+		stage('Test') {
+			steps {
 				echo "Test"
 			}
 		}
-		stage('Integration Test'){
-			steps{
+		stage('Integration Test') {
+			steps {
 				echo "Integration Test"
 			}
 		}
