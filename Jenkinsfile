@@ -20,6 +20,16 @@ pipeline {
 				echo "Integration Test"
 			}
 		}
+	} post {
+		always {
+			echo "i run always"
+		}
+		success {
+			echo "i run when you are success"
+		}
+		failure {
+			echo "i run when you fail"
+		}
 	}
 
 	
